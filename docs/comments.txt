@@ -1,0 +1,4 @@
+This query can give the result as u have expected, there will not be any conflict.
+START TRANSACTION
+ALTER TABLE pages DROP COLUMN state
+ALTER TABLE pages DROP FOREIGN KEY pages_ibfk_2
